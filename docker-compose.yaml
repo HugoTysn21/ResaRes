@@ -1,0 +1,114 @@
+# Docker Compose file Reference (https://docs.docker.com/compose/compose-file/)
+
+version: '3.7'
+
+services:
+# Configuration for building the docker image for the backend service
+  reservation-server:
+    build:
+      context: reservation 
+      dockerfile: Dockerfile
+    ports:
+      - "9007:9007" # Forward the exposed port 9007(1) on the host machine to port 9007(2) on the container
+    restart: always
+    depends_on: 
+      - db # This service depends on mysql. Start that first.
+      - eureka-server # For service discovery 
+    environment: # Pass environment variables to the service
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/resaresreservation?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      SPRING_DATASOURCE_PASSWORD: azertyuiop
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:9002/eureka
+    networks: # Networks to join (Services on the same network can communicate with each other using their name)
+      - backend
+
+  eureka-server:
+    build:
+      context: eureka-server 
+      dockerfile: Dockerfile
+    ports:
+      - "9002:9002" 
+    restart: always
+    depends_on: 
+      - db 
+    networks: 
+      - backend
+
+  gateway-server:
+    build:
+      context: api-gateway 
+      dockerfile: Dockerfile
+    ports:
+      - "9004:9004" 
+    restart: always
+    depends_on: 
+      - eureka-server
+    environment:
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:9002/eureka
+    networks:
+      - backend
+
+  resource-server:
+    build:
+      context: attribut-service
+      dockerfile: Dockerfile
+    ports:
+      - "9006:9006"
+    restart: always
+    depends_on: 
+      - db
+      - eureka-server
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/resaresresource?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      SPRING_DATASOURCE_PASSWORD: azertyuiop
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:9002/eureka
+    networks:
+      - backend
+
+  authentication-server:
+    build:
+      context: authentication-service
+      dockerfile: Dockerfile
+    ports:
+      - "9005:9005"
+    restart: always
+    depends_on: 
+      - db
+      - eureka-server
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/resaresusers?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      SPRING_DATASOURCE_PASSWORD: azertyuiop
+      EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka-server:9002/eureka
+    networks:
+      - backend
+
+# Database Service Authentification (Mysql)
+  db:
+    image: mysql
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: azertyuiop
+      MYSQL_DATABASE: local
+
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./docker-mysql/init:/docker-entrypoint-initdb.d
+    networks:
+      - backend
+  
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 3000:8080
+
+# Volumes
+volumes:
+  db-data:
+
+# Networks to be created to facilitate communication between containers
+networks:
+  backend:  

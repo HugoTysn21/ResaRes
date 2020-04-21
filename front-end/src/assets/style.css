@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+html {
+    min-height: 100%;
+}
+
+#menu {
+    min-height: 100%;
+    margin: 0;
+    background-color: #ebeaf0;
+    box-shadow: -16px 0 60px 12px rgba(44, 62, 80, 0.24);
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.menu-card {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0px solid #2c3e50;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: -2px 2px 5px 0 rgba(67, 86, 100, 0.12), -1px 1px 2px 0 rgba(67, 70, 74, 0);
+}
+
+.menu-card_logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.menu-card_link {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu-card_link {
+    color: #2a3e8b;
+}
+
+.page-container {
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.page-container-row{
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.color-blue{
+    color: #2a3e8b;
+}
+
+.card{
+    border-radius: 20px;
+    border:none;
+    box-shadow: 0 0 16px 0 rgba(215, 222, 227, 0.32), 0 16px 40px 0 rgba(51, 59, 69, 0.08);
+    padding: 50px 25px;
+}
+
+.card .card-title{
+    border-bottom: 1px solid #EEF1F3;
+    padding-bottom: 0.5rem;
+}
+
+.btn-card-close{
+    border:none;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 32px;
+    height: 32px;
+    background-color: #9db5c6;
+    border-radius: 15px;
+}
+
+.btn-card-close:hover{
+    background-color: #ff3743;
+    color: white;
+}
+
+.btn-details{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 80px;
+    border: solid 1px #cfd9df;
+    background-color: white;
+    color: #2a3e8b;
+}
+
+.btn-details:hover {
+    background-color: #2a3e8b;
+    color: white;
+}
+
+.v-event-more {
+    background-color: #2a3e8b!important;
+    color: white!important;
+    border-radius: 5px;
+    margin-right: 8px;
+}

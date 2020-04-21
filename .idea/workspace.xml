@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb849933-00f1-4bcc-8283-c2c98f5c9e8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resaresusers@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resaresusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resaresusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resaresusers: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resaresusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resaresusers: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="roles: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resaresusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resaresusers: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user_roles: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="resaresusers@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="resaresusers: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/attribut-service" />
+  </component>
+  <component name="ProjectId" id="1Yt0DC2xkTyt7DULiVTtGtuTbAs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.resresa.organisationservice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tpms.apigateway.ApiGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttributServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="attribut-service" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.resresa.attributservice.AttributServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authentication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.resresa.authentication.AuthenticationApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.resresa.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reservation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.resares.reservation.ReservationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.AuthenticationApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.AttributServiceApplication" />
+      <item itemvalue="Spring Boot.ReservationApplication" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb849933-00f1-4bcc-8283-c2c98f5c9e8c" name="Default Changelist" comment="" />
+      <created>1583746461518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583746461518</updated>
+      <workItem from="1583746465603" duration="22015000" />
+      <workItem from="1584045627936" duration="116000" />
+      <workItem from="1584197030364" duration="61402000" />
+      <workItem from="1585565399832" duration="92504000" />
+      <workItem from="1586520126918" duration="57060000" />
+      <workItem from="1587149228707" duration="55000" />
+      <workItem from="1587154260488" duration="2185000" />
+      <workItem from="1587205146613" duration="2588000" />
+      <workItem from="1587222729713" duration="280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="256" y="5" key="#ApiGatewayApplication_(1)" timestamp="1583850125009">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="256" y="5" key="#ApiGatewayApplication_(1)/0.0.1280.800@0.0.1280.800" timestamp="1583850125009" />
+    <state x="240" y="65" key="#Assign_Data_Sources" timestamp="1586601903019">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Assign_Data_Sources/0.0.1280.800@0.0.1280.800" timestamp="1586601903019" />
+    <state x="240" y="65" key="#Inspections" timestamp="1583829650771">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Inspections/0.0.1280.800@0.0.1280.800" timestamp="1583829650771" />
+    <state x="240" y="65" key="#Notifications" timestamp="1583847470457">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Notifications/0.0.1280.800@0.0.1280.800" timestamp="1583847470457" />
+    <state x="256" y="5" key="#OrganisationServiceApplication" timestamp="1585910794247">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="256" y="5" key="#OrganisationServiceApplication/0.0.1280.800@0.0.1280.800" timestamp="1585910794247" />
+    <state x="240" y="65" key="#Project_Structure" timestamp="1586192267447">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1586192267447" />
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585494891002">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1585494891002" />
+    <state x="209" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587207369593">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="209" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1587207369593" />
+    <state x="235" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1586970861990" />
+    <state x="453" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1586289991736">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="110" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1586289991736" />
+    <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586195164286">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1586195164286" />
+    <state x="46" y="326" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583765858346">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="46" y="326" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1583765858346" />
+    <state x="394" y="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1583765861617">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="394" y="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1583765861617" />
+    <state x="252" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585323384000">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="252" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1585323384000" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586439020428">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1586439020428" />
+    <state x="380" y="245" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585910751813">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="380" y="245" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1585910751813" />
+    <state width="250" height="195" key="DatabaseViewActions_Filter" timestamp="1586195158951">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="250" height="195" key="DatabaseViewActions_Filter/0.0.1280.800@0.0.1280.800" timestamp="1586195158951" />
+    <state x="113" y="99" width="1215" height="772" key="DiffContextDialog" timestamp="1586784639972">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="113" y="99" width="1215" height="772" key="DiffContextDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1586784639972" />
+    <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.23.1280.700@0.23.1280.700" timestamp="1584717479596" />
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom" timestamp="1587149092329">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586954866506" />
+    <state width="1398" height="373" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092329" />
+    <state width="1398" height="113" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656952" />
+    <state width="1238" height="310" key="GridCell.Tab.0.bottom/0.23.1280.696@0.23.1280.696" timestamp="1586691420649" />
+    <state width="1238" height="283" key="GridCell.Tab.0.bottom/0.23.1280.700@0.23.1280.700" timestamp="1586518413627" />
+    <state width="1238" height="265" key="GridCell.Tab.0.bottom/0.23.1280.703@0.23.1280.703" timestamp="1586437844395" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133655" />
+    <state width="1398" height="373" key="GridCell.Tab.0.center" timestamp="1587149092327">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586954866503" />
+    <state width="1398" height="373" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092327" />
+    <state width="1398" height="113" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656951" />
+    <state width="1238" height="310" key="GridCell.Tab.0.center/0.23.1280.696@0.23.1280.696" timestamp="1586691420648" />
+    <state width="1238" height="283" key="GridCell.Tab.0.center/0.23.1280.700@0.23.1280.700" timestamp="1586518413626" />
+    <state width="1238" height="265" key="GridCell.Tab.0.center/0.23.1280.703@0.23.1280.703" timestamp="1586437844391" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133654" />
+    <state width="1398" height="373" key="GridCell.Tab.0.left" timestamp="1587149092326">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586954866495" />
+    <state width="1398" height="373" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092326" />
+    <state width="1398" height="113" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656950" />
+    <state width="1238" height="310" key="GridCell.Tab.0.left/0.23.1280.696@0.23.1280.696" timestamp="1586691420647" />
+    <state width="1238" height="283" key="GridCell.Tab.0.left/0.23.1280.700@0.23.1280.700" timestamp="1586518413625" />
+    <state width="1238" height="265" key="GridCell.Tab.0.left/0.23.1280.703@0.23.1280.703" timestamp="1586437844390" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133650" />
+    <state width="1398" height="373" key="GridCell.Tab.0.right" timestamp="1587149092328">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586954866503" />
+    <state width="1398" height="373" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092328" />
+    <state width="1398" height="113" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656952" />
+    <state width="1238" height="310" key="GridCell.Tab.0.right/0.23.1280.696@0.23.1280.696" timestamp="1586691420649" />
+    <state width="1238" height="283" key="GridCell.Tab.0.right/0.23.1280.700@0.23.1280.700" timestamp="1586518413626" />
+    <state width="1238" height="265" key="GridCell.Tab.0.right/0.23.1280.703@0.23.1280.703" timestamp="1586437844394" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133654" />
+    <state width="1398" height="373" key="GridCell.Tab.1.bottom" timestamp="1587149092332">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586954866508" />
+    <state width="1398" height="373" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092332" />
+    <state width="1398" height="113" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656955" />
+    <state width="1238" height="310" key="GridCell.Tab.1.bottom/0.23.1280.696@0.23.1280.696" timestamp="1586691420651" />
+    <state width="1238" height="283" key="GridCell.Tab.1.bottom/0.23.1280.700@0.23.1280.700" timestamp="1586518413628" />
+    <state width="1238" height="265" key="GridCell.Tab.1.bottom/0.23.1280.703@0.23.1280.703" timestamp="1586437844399" />
+    <state width="1398" height="258" key="GridCell.Tab.1.bottom/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133659" />
+    <state width="1398" height="373" key="GridCell.Tab.1.center" timestamp="1587149092330">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586954866507" />
+    <state width="1398" height="373" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092330" />
+    <state width="1398" height="113" key="GridCell.Tab.1.center/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656953" />
+    <state width="1238" height="310" key="GridCell.Tab.1.center/0.23.1280.696@0.23.1280.696" timestamp="1586691420651" />
+    <state width="1238" height="283" key="GridCell.Tab.1.center/0.23.1280.700@0.23.1280.700" timestamp="1586518413628" />
+    <state width="1238" height="265" key="GridCell.Tab.1.center/0.23.1280.703@0.23.1280.703" timestamp="1586437844398" />
+    <state width="1398" height="258" key="GridCell.Tab.1.center/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133657" />
+    <state width="1398" height="373" key="GridCell.Tab.1.left" timestamp="1587149092329">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586954866507" />
+    <state width="1398" height="373" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092329" />
+    <state width="1398" height="113" key="GridCell.Tab.1.left/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656953" />
+    <state width="1238" height="310" key="GridCell.Tab.1.left/0.23.1280.696@0.23.1280.696" timestamp="1586691420650" />
+    <state width="1238" height="283" key="GridCell.Tab.1.left/0.23.1280.700@0.23.1280.700" timestamp="1586518413627" />
+    <state width="1238" height="265" key="GridCell.Tab.1.left/0.23.1280.703@0.23.1280.703" timestamp="1586437844397" />
+    <state width="1398" height="258" key="GridCell.Tab.1.left/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133656" />
+    <state width="1398" height="373" key="GridCell.Tab.1.right" timestamp="1587149092331">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586954866508" />
+    <state width="1398" height="373" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1587149092331" />
+    <state width="1398" height="113" key="GridCell.Tab.1.right/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1587033656954" />
+    <state width="1238" height="310" key="GridCell.Tab.1.right/0.23.1280.696@0.23.1280.696" timestamp="1586691420651" />
+    <state width="1238" height="283" key="GridCell.Tab.1.right/0.23.1280.700@0.23.1280.700" timestamp="1586518413628" />
+    <state width="1238" height="265" key="GridCell.Tab.1.right/0.23.1280.703@0.23.1280.703" timestamp="1586437844398" />
+    <state width="1398" height="258" key="GridCell.Tab.1.right/0.23.1440.789/1440.23.2560.1417@0.23.1440.789" timestamp="1586954133658" />
+    <state width="239" height="539" key="HiddenNamespacesPopup" timestamp="1583762408490">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="239" height="539" key="HiddenNamespacesPopup/0.0.1280.800@0.0.1280.800" timestamp="1583762408490" />
+    <state x="228" y="142" key="IDE.errors.dialog" timestamp="1586602573370">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="142" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1586602573370" />
+    <state x="252" y="20" key="NewModule_or_Project.wizard" timestamp="1586177867143">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="252" y="20" key="NewModule_or_Project.wizard/0.0.1280.800@0.0.1280.800" timestamp="1586177867143" />
+    <state x="323" y="33" key="RollbackChangesDialog" timestamp="1583762842141">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="323" y="33" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1583762842141" />
+    <state x="128" y="23" width="1024" height="722" key="SettingsEditor" timestamp="1587205507282">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="23" width="1024" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1587205507282" />
+    <state x="144" y="26" key="SettingsEditor/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1586965655079" />
+    <state x="527" y="294" width="348" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1586194867011">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="527" y="294" width="348" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.800@0.0.1280.800" timestamp="1586194867011" />
+    <state x="369" y="86" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586601806950">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="369" y="86" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.800@0.0.1280.800" timestamp="1586601806950" />
+    <state x="17" y="0" key="new project wizard" timestamp="1583917194862">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="17" y="0" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1583917194862" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/authentication-service/src/main/java/com/resresa/authentication/security/JwtTokenProvider.java</url>
+          <line>43</line>
+          <properties class="com.resresa.authentication.security.JwtTokenProvider">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/attribut-service/attribut-service.iml" filepath="$PROJECT_DIR$/attribut-service/attribut-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authentication-service/authentication.iml" filepath="$PROJECT_DIR$/authentication-service/authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reservation/reservation.iml" filepath="$PROJECT_DIR$/reservation/reservation.iml" />
+    </modules>
+  </component>
+</project>

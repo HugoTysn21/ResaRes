@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="reservation" />
+        <module name="eureka-server" />
+        <module name="authentication" />
+        <module name="api-gateway" />
+        <module name="attribut-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="11" />
+      <module name="apiGateway" target="11" />
+      <module name="attribut-service" target="11" />
+      <module name="authentication" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="organisation-service" target="11" />
+      <module name="reservation" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="apiGateway" options="-parameters" />
+      <module name="attribut-service" options="-parameters" />
+      <module name="authentication" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="organisation-service" options="-parameters" />
+      <module name="reservation" options="-parameters" />
+    </option>
+  </component>
+</project>
